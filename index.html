@@ -1,0 +1,25 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Forecast</title>
+        <link rel="stylesheet" href="mystyle.css">
+    </head>
+    <body>
+        <h2>Weather Forecast - Geographic Coordinates</h2>
+            <form id='weather'>
+                <label for="lat">Latitude of the location</label>
+                <input type="text" id="lat"><br><br>
+                <label for="lon">Longitude of the location</label>
+                <input type="text" id="lon"><br><br>
+                <label for="api_key">OpenWeatherMap API Key</label>
+                <input type="text" id="api_key"><br><br>
+                <input type="submit" id="submit_btn" value="FetchForecastData">
+            </form>
+            <p id="temp"></p>
+            <p id="weather_condition"></p>
+             
+        <script src="fetchWeatherForecast.js"></script>           
+    </body>
+    </html>

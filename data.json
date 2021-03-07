@@ -1,0 +1,5 @@
+{
+    "noOfDays": 5,
+    "expectedTemperature": 23,
+    "expectedWeatherCondition": "Clear"
+}
