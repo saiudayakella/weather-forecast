@@ -42,7 +42,7 @@ Note: For filter criteria such as no of days to be considered for forecast , wea
 ## Considerations
 * Max daily temperature is considered for filtering temperature data
 
-* From the lists of weather condition codes provided by openweathermap (https://openweathermap.org/weather-conditions#Weather-Condition-Codes-2), picked code `Clear` as Sunny
+* From the list of weather condition codes provided by openweathermap (https://openweathermap.org/weather-conditions#Weather-Condition-Codes-2), `Clear` is considered as Sunny
 
 * As part of free subscription, `One Call API` and `5 Day / 3 Hour Forecast` provides 5 day forecast. `One Call API` provides an option to exclude hourly, minutely data and hence, fixed that as part of the logic. 
 
