@@ -38,7 +38,6 @@ form.addEventListener('submit', (event) => {
 function weatherCalculation(forecastData, filterCriteria) {
     const dailyTemperatureData = [], dailyWeatherConditionData = [];
     let expectedTemperatureDays = 0, expectedWeatherConditionDays = 0;
-
     for (let i = 0; i < filterCriteria.noOfDays; i++) {
         // Store daily temperature data
         dailyTemperatureData.push(forecastData[i].temp);
